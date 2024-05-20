@@ -62,6 +62,23 @@ Sobre el mismo CLI ejecutamos la siguiente línea:
 ```bash
     huggingface-cli repo create <Nombre_del_repositorio>
 ```
+
+Al hacerlo, muestra las siguientes líneas:
+```bash
+git version 2.40.0.windows.1
+git-lfs/3.3.0 (GitHub; windows amd64; go 1.19.3; git 77deabdf)
+
+You are about to create BecarIA/Longformer-SQuAD-becas-1
+Proceed? [Y/n] Y
+
+Your repo now lives at:
+  https://huggingface.co/BecarIA/Longformer-SQuAD-becas-1
+
+You can clone it locally with the command below, and commit/push as usual.
+
+  git clone https://huggingface.co/BecarIA/Longformer-SQuAD-becas-1
+```
+  
 El nombre del repositorio se tomará también como el nombre del modelo que se sube. Esto crea el repositorio y lo podemos visualizar al dar clic en el perfil (parte superior derecha de [Hugging Face](https://huggingface.co/)).
 
 ### Crear aplicación de Python para desplegar modelo sobre el repositorio creado
