@@ -163,6 +163,10 @@ https://api-inference.huggingface.co/models/<MODEL_ID>
 }
 ```
 4. **Se configura el Header correcto**:
+```
+key = Content-Type
+value = application/json
+```
 
 ![image](https://github.com/EscomTTQA/Desplegar_-Longformer-SQuAD-becas/assets/167526018/283ae97d-2f20-4676-a0eb-4f074c530d85)
 
