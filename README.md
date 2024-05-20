@@ -67,7 +67,8 @@ El nombre del repositorio se tomará también como el nombre del modelo que se s
 ### Crear aplicación de Python para desplegar modelo sobre el repositorio creado
 En la sección del perfil se podrá visualizar el repositorio y al dar clic se observa que está vacío. Se necesita copiar la ruta relativa de este repositorio, que se visualiza de esta forma: 
 
-![image](https://github.com/jonasaid/BecarIA_Model_deploy/assets/46545613/2db8ca0a-270c-4d99-a6c0-9c8a3574f6ea)
+![image](https://github.com/EscomTTQA/Desplegar_-Longformer-SQuAD-becas/assets/167526018/3d5ae5dc-54dd-4218-aa83-1ea8f84b0426)
+
 
 Una vez copiada se crea el archivo .py que permite subir el modelo al repositorio:
 
@@ -100,15 +101,18 @@ tokenizer.push_to_hub("nombreUsuario/nombreRepositorio")
 ```
 La ejecución de este código puede tardar algunos minutos. Luego, en la dirección del repositorio creado se pueden visualizar los archivos necesarios para que el modelo funcione. Incluso, debido a que la plataforma es muy robusta para el manejo y despliegue de modelos de Machine Learning y a los archivos que se suben, se puede probar el modelo desde Hugging Face:
 
-![image](https://github.com/jonasaid/BecarIA_Model_deploy/assets/46545613/1dd21998-50d5-4cf5-99ea-82db40d3e73e)
+![image](https://github.com/EscomTTQA/Desplegar_-Longformer-SQuAD-becas/assets/167526018/6f94d62d-2792-4ab8-8e17-9458aceae5f0)
+
 
 Vemos como está trabajando el modelo para poder responder:
 
-![image](https://github.com/jonasaid/BecarIA_Model_deploy/assets/46545613/21eba196-84c6-4a6d-80fe-770c7a8da79d)
+![image](https://github.com/EscomTTQA/Desplegar_-Longformer-SQuAD-becas/assets/167526018/19cbf76c-eb36-48be-b696-14be67d96425)
+
 
 La respuesta que da:
 
-![image](https://github.com/jonasaid/BecarIA_Model_deploy/assets/46545613/adea2f15-3dd8-448e-bd0e-4200c9a70be4)
+![image](https://github.com/EscomTTQA/Desplegar_-Longformer-SQuAD-becas/assets/167526018/458db53a-4392-4a77-bb7e-2705a29d66a3)
+
 
 Este proceso se describe también en: [Subiendo modelos](https://huggingface.co/docs/hub/models-uploading#uploading-models)
 
@@ -160,9 +164,11 @@ https://api-inference.huggingface.co/models/<MODEL_ID>
 ```
 4. **Se configura el Header correcto**:
 
-![image](https://github.com/jonasaid/BecarIA_Model_deploy/assets/46545613/2c3fa2f9-8a75-4391-8cae-ee09a6e2c1e3)
+![image](https://github.com/EscomTTQA/Desplegar_-Longformer-SQuAD-becas/assets/167526018/283ae97d-2f20-4676-a0eb-4f074c530d85)
+
 
 Como resultado se obtiene:
 
-![image](https://github.com/jonasaid/BecarIA_Model_deploy/assets/46545613/1a521603-1aa4-4ae5-9b56-1dc957023356)
+![image](https://github.com/EscomTTQA/Desplegar_-Longformer-SQuAD-becas/assets/167526018/a788bba2-a85f-4bc0-80d1-893dd0e9363b)
+
 
