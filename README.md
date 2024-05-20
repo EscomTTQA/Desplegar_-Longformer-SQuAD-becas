@@ -159,7 +159,7 @@ data = query(
 )
 ```
 
-La documentación del uso como API se documenta en: [Subiendo modelos](https://huggingface.co/docs/api-inference/en/detailed_parameters#question-answering-task)
+La documentación del uso de la API se encuentra en: [Parámetros detallados](https://huggingface.co/docs/api-inference/en/detailed_parameters#question-answering-task)
 
 #### Hacer peticiones a la API desde Postman
 Para probar el modelo se requiere una aplicación o herramienta que permita el manejo de APIs. Para este ejemplo se usa Postman de la siguiente forma:
