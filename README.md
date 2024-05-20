@@ -60,7 +60,7 @@ Eso te muestra el nombre de usuario de Hugging Face que inició sesión.
 Sobre el mismo CLI ejecutamos la siguiente línea:
 
 ```bash
-    huggingface-cli repo create <Nombre_del_repositorio>
+huggingface-cli repo create <Nombre_del_repositorio>
 ```
 
 Al hacerlo, muestra las siguientes líneas:
