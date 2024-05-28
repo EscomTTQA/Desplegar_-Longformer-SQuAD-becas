@@ -2,7 +2,7 @@
 El despliegue del modelo de aprendizaje automático para el proyecto BecarIA implica seguir una serie de pasos clave. Guardar el modelo, subir los archivos a un repositorio de Hugging Face y generar la API para su uso posterior.
 
 # BecarIA: desplegar modelo de aprendizaje automático para su posterior uso como una API
-Pasos para desplegar el modelo en Hugging Face que se usa para el proyecto BecarIA. [Prueba el modelo aquí](https://huggingface.co/BecarIA/Longformer-SQuAD-becas-1).
+Pasos para desplegar el modelo en Hugging Face que se usa para el proyecto BecarIA. [Prueba el modelo aquí] (https://huggingface.co/BecarIA/Longformer-SQuAD-becas-1).
 ## ¿Cómo desplegar el modelo en Hugging Face?
 El proceso consiste en guardar el modelo, que para el caso de este proyecto ya se ha hecho un ajuste fino a un modelo pre-entrenado llamado Longformer y tomado desde Hugging Face. Posteriormente, la forma en que se guarda el modelo genera archivos que contienen:
 * La arquitectura del modelo.
